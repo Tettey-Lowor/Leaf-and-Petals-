@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .bg {
+  color: #FFFFFF;
+  background-image: linear-gradient(90deg, rgba(161,224,0,0.39463707846419815) 0%, rgba(78,121,9,0.629931196111257) 35%, rgba(255,86,0,0.5066818963913691) 100%), url("assets/mufid-majnun-JjmjwOd2toU-unsplash.jpg");
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+} */
+
+.top-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  padding: 10px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+
+}
+
+a {
+  text-decoration: none;
+  color: rgb(55, 14, 109);
+}
