@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../Assets/diana-polekhina-dxXIImOQwF4-unsplash.jpg';
+import image1 from '../Assets/diana-polekhina-dxXIImOQwF4-unsplash.jpg';
 
 export default function NewProjects() {
   return (
@@ -19,7 +19,7 @@ export default function NewProjects() {
         <div><button type="Request" class="btn">Buy here</button></div>
     </div>
 
-    <div class="img"> <img src="assets/diana-polekhina-dxXIImOQwF4-unsplash.jpg" alt="Flower" /></div>
+    <div class="img"> <img src={image1} alt="Flower" /></div>
 
 
 </section>

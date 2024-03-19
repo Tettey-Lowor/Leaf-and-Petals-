@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import image1 from '../Assets/Pink_Typography_Initial_LP_Logo-removebg-preview.png';
+
 
 export default function Navbar() {
   return (
-    <nav class="navbar">
+    <nav className="navbar">
+        <div className="icon">
+                    <img src={image1} alt=""/>
+                </div>
     <ul>
         <li>
             <a href="">Home</a>
@@ -22,7 +27,7 @@ export default function Navbar() {
             <a href="">Contact Us</a>
         </li>
     </ul>
-    <button>Sign up</button>
+    <button className='btn'>Sign up</button>
 </nav>
 
   )

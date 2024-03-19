@@ -1,75 +1,75 @@
 import React from 'react';
-import image from '../Assets/Ornamental Flower 1.jpg';
-import image from '../Assets/Ornamental Flower 2.jpg';
-import image from '../Assets/Ornamental Flower 3.jpg';
-import image from '../Assets/Ornamental Flower 4.jpg';
-import image from '../Assets/Ornamental Flower 5.jpg';
-import image from '../Assets/Ornamental Flower 6.jpg';
-import image from '../Assets/Ornamental Flower 7.jpg';
-import image from '../Assets/Ornamental Flower 3.jpg';
+import image1 from '../Assets/Ornamental Flower 1.jpg';
+import image2 from '../Assets/Ornamental Flower 2.jpg';
+import image3 from '../Assets/Ornamental Flower 3.jpg';
+import image4 from '../Assets/Ornamental Flower 4.jpg';
+import image5 from '../Assets/Ornamental Flower 5.jpg';
+import image6 from '../Assets/Ornamental Flower 6.jpg';
+import image7 from '../Assets/Ornamental Flower 7.jpg';
+import image8 from '../Assets/Ornamental Flower 3.jpg';
 
 export default function Products() {
   return (
-    <Section class="Products">
+    <section className="Products">
     <h2>Products Available</h2>
-    <div class="product-types">
+    <div className="product-types">
 
         <div class="Product-card">
-            <img src="assets/Ornamental Flower 1.jpg" alt="Flower Picture" />
+            <img src={image1} alt="Flower Picture" />
             <h3>Outdoors</h3>
-            <Button class="see-more">See more</Button>
+            <button class="see-more">See more</button>
 
         </div>
         <div class="Product-card">
-            <img src="assets/Ornamental Flower 2.jpg" alt="Flower Picture" />
+            <img src={image2} alt="Flower Picture" />
                 <h3>Occasional</h3>
-                <Button class="see-more">See more</Button>
+                <button class="see-more">See more</button>
 
         </div>
         <div class="Product-card">
-            <img src="assets/Ornamental Flower 3.jpg" alt="Flower Picture" />
+            <img src={image3} alt="Flower Picture" />
             <h3>Picnic</h3>
-            <Button class="see-more">See more</Button>
+            <button class="see-more">See more</button>
 
         </div>
         <div class="Product-card">
 
-            <img src="assets/Ornamental Flower 4.jpg" alt="Flower Picture" />
+            <img src={image4} alt="Flower Picture" />
             <h3>Ornamental</h3>
-            <Button class="see-more">See more</Button>
+            <button class="see-more">See more</button>
 
         </div>
         <div class="Product-card">
 
-            <img src="assets/Ornamental Flower 5.jpg" alt="Flower Picture" />
+            <img src={image5} alt="Flower Picture" />
             <h3>Dreamy</h3>
-            <Button class="see-more">See more</Button>
+            <button class="see-more">See more</button>
 
         </div>
         <div class="Product-card">
 
-            <img src="assets/Ornamental Flower 6.jpg" alt="Flower Picture" />
+            <img src={image6} alt="Flower Picture" />
             <h3>Green</h3>
-            <Button class="see-more">See more</Button>
+            <button className="see-more">See more</button>
 
         </div>
         <div class="Product-card">
 
-            <img src="assets/Ornamental Flower 7.jpg" alt="Flower Picture" />
+            <img src={image7} alt="Flower Picture" />
             <h3>Fragile
             </h3>
-                <Button class="see-more">See more</Button>
+                <button className="see-more">See more</button>
 
         </div>
-        <div class="Product-card">
+        <div className="Product-card">
 
-            <img src="assets/Flower Pic 3.jpg" alt="Flower Picture" />
+            <img src={image8} alt="Flower Picture" />
             <h3>Summer</h3>
-            <Button class="see-more">See more</Button>
+            <button className="see-more">See more</button>
 
         </div>
     </div>
 
-</Section>
+</section>
   )
 }

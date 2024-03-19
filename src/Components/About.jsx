@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import image1 from '../Assets/Pink_Typography_Initial_LP_Logo-removebg-preview.png'
+
 
 export default function About() {
   return (
@@ -6,7 +8,7 @@ export default function About() {
             <div class="about-text">
 
                 <div class="icon1">
-                    <img src="assets/Pink_Typography_Initial_LP_Logo-removebg-preview.png" alt="" />
+                    <img src={image1} alt="" />
                 </div>
                 
                 <div class="aboutSection_text">
