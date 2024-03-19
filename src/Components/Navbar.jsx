@@ -22,9 +22,8 @@ export default function Navbar() {
             <a href="">Contact Us</a>
         </li>
     </ul>
-
-
-
+    <button>Sign up</button>
 </nav>
+
   )
 }
