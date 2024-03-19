@@ -1,13 +1,17 @@
 import React from 'react';
+import Navbar from './Navbar';
 // import image1 from '../Assets/Pink_Typography_Initial_LP_Logo-removebg-preview.png'
-import image2 from '../Assets/mufid-majnun-JjmjwOd2toU-unsplash.jpg';
+import image2 from '../Assets/Ornamental Flower 3.jpg';
 
 export default function Header() {
     return (
         <>
-        <div className='bg'> 
-                <img src={image2}/>
-                </div>
+       
+        <div className='bg'
+         style={{
+            backgroundImage:`url(${image2})`
+        }}> 
+                 <Navbar/>
         <div className="header-texts">
             
         
@@ -22,7 +26,7 @@ export default function Header() {
                     </p>
                 </div>
             </div>
-            
+            </div>
 
         </>
     

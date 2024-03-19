@@ -299,6 +299,8 @@ color: white;
 }
 .Team-Names h4{
   margin-top: 10px;
+  text-decoration: underline;
+  padding: 10px;
 }
 .Team{
   display: flex;
