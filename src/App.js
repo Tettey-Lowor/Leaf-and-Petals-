@@ -6,6 +6,7 @@ import NewProjects from './Components/New-Projects';
 import Products from './Components/Products';
 import Team from './Components/Team';
 import Footer from './Components/Footer';
+import RegisterForms from './Components/Registerforms';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <Products/>
     <Team/>
     <Footer/>
+    <RegisterForms/>
     </>
     
     
